@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Deep Sweep 2% BHA Pore Cleaning Toner",
+        "price_ikn": "$",
+        "price": 21.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Eternal Sunset Collection Lip and Cheek",
+        "price_ikn": "$",
+        "price": 12.00,
+        "Sale": "true",
+        "Sale_price": 16.00,
+        "image": "./img/botal2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Facial Treatment Essence (Pitera Essence)",
+        "price_ikn": "$",
+        "price": 18.00,
+        "Sale": "true",
+        "Sale_price": 21.00,
+        "image": "./img/botal3.webp"
+    },
+    {
+        "id": 4,
+        "name": "Mini Radiant Creamy Concealer and Blush",
+        "price_ikn": "$",
+        "price": 21.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Rare Earth Deep Pore Minimizing Cleansing",
+        "price_ikn": "$",
+        "price": 14.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Ultra Facial Moisturizing Cream",
+        "price_ikn": "$",
+        "price": 14.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal6.webp"
+    },
+    {
+        "id": 7,
+        "name": "Vinopure Pore Purifying Gel Cleanser",
+        "price_ikn": "$",
+        "price": 14.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal7.webp"
+    },
+    {
+        "id": 8,
+        "name": "Watermelon Glow Hyaluronic Clay Pore",
+        "price_ikn": "$",
+        "price": 14.00,
+        "Sale": "false",
+        "Sale_price": "",
+        "image": "./img/botal8.webp"
+    }
+]
