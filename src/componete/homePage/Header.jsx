@@ -3,7 +3,7 @@ import React from 'react'
 export default function Header() {
     return (
         <div>
-            <div className='relative w-full h-[570px] '>
+            <div className='relative w-full h-[570px] prodact_img'>
                 <img src="/img/Heroc.webp" alt="" className='h-full w-full object-cover' />
                 <div className="absolute top-[27%]  px-32 ">
                     <h2 className='text-6xl max-w-[60%] text-[#212121] font-normal leading-[1.1]'>Headline that grabs people’s attention</h2>
@@ -12,5 +12,6 @@ export default function Header() {
             </div>
 
         </div>
+
     )
 }

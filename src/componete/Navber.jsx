@@ -24,7 +24,7 @@ const Navber = () => {
                 </ul>
                 <div className="md:hidden">
                     <button onClick={toggleMenu}>
-                        {isOpen ? <X size={24} /> : <Menu size={24} />}
+                        {isOpen ? " " : <Menu />}
                     </button>
                 </div>
                 <div id="Logo">
@@ -55,14 +55,16 @@ const Navber = () => {
                 </div>
             </div>}
             {/* Mobile Menu */}
-            {isOpen && (
-                <ul className="md:hidden mt-4 space-y-2 text-gray-700 font-medium">
-                    <li className=' cursor-pointer font-light'>Home</li>
-                    <li className='cursor-pointer font-light'>Blog</li>
-                    <li className='cursor-pointer font-light'>Shop</li>
-                    <li className='cursor-pointer font-light'>Contacy</li>
-                </ul>
-            )}
+            <ul className={`md:hidden mt-4 space-y-2 ease-in duration-500 top-0 p-5 bg-white h-screen w-[50%] text-gray-700 absolute z-30 font-medium ${isOpen ? 'left-0' : ' left-[-100%]'}`}>
+                <button onClick={toggleMenu} className='absolute right-3'>
+                    {isOpen ? <X /> : " "}
+                </button>
+                <li className=' cursor-pointer font-light'>Home</li>
+                <li className='cursor-pointer font-light'>Blog</li>
+                <li className='cursor-pointer font-light'>Shop</li>
+                <li className='cursor-pointer font-light'>Contacy</li>
+            </ul>
+
 
         </nav>
     )
