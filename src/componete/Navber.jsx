@@ -17,8 +17,8 @@ const Navber = () => {
         <nav className='px-8 py-6 border black' >
             <div className=' flex items-center justify-between flex-row-reverse md:flex-row'>
                 <ul className=' hidden md:flex space-x-6  font-medium '>
-                    <li className=' cursor-pointer font-light'>Home</li>
-                    <li className='cursor-pointer font-light'>Blog</li>
+                    <NavLink to={""} className=' cursor-pointer font-light'>Home</NavLink>
+                    <NavLink to={"/blog"} className=' cursor-pointer font-light'>Blog</NavLink>
                     <li className='cursor-pointer font-light'>Shop</li>
                     <li className='cursor-pointer font-light'>Contacy</li>
                 </ul>

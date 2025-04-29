@@ -1,0 +1,56 @@
+[
+    {
+        "img": "./img/blog1.png",
+        "deta": "July 18, 2021",
+        "title": "Desirable outcome that your customers get from using your product",
+        "id": 1
+    },
+    {
+        "img": "./img/blog2.png",
+        "deta": "July 18, 2021",
+        "title": "Headline about your customers biggest problem",
+        "id": 1
+    },
+    {
+        "img": "./img/blog3.png",
+        "deta": "July 18, 2021",
+        "title": "Product feature’s you can’t live without",
+        "id": 1
+    },
+    {
+        "img": "./img/blog4.png",
+        "deta": "July 18, 2021",
+        "title": "Briefly expand on how this will help your customers",
+        "id": 1
+    },
+    {
+        "img": "./img/blog5.png",
+        "deta": "July 18, 2021",
+        "title": "What differentiates you make from your product competition",
+        "id": 1
+    },
+    {
+        "img": "./img/blog6.png",
+        "deta": "July 18, 2021",
+        "title": "Why should they care about product?",
+        "id": 1
+    },
+    {
+        "img": "./img/blog7.png",
+        "deta": "July 18, 2021",
+        "title": "A powerful headline that describes your products big benefit",
+        "id": 1
+    },
+    {
+        "img": "./img/blog8.png",
+        "deta": "July 18, 2021",
+        "title": "Reason people use your product",
+        "id": 1
+    },
+    {
+        "img": "./img/blog9.png",
+        "deta": "July 18, 2021",
+        "title": "Make it clear on how it solves your customers problem",
+        "id": 1
+    }
+]
