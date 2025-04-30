@@ -14,7 +14,7 @@ const Navber = () => {
     }
 
     return (
-        <nav className='px-8 py-6 border black' >
+        <nav className='px-3 sm:px-8 py-6 border black' >
             <div className=' flex items-center justify-between flex-row-reverse md:flex-row'>
                 <ul className=' hidden md:flex space-x-6  font-medium '>
                     <NavLink to={""} className=' cursor-pointer font-light'>Home</NavLink>
@@ -55,7 +55,7 @@ const Navber = () => {
                 </div>
             </div>}
             {/* Mobile Menu */}
-            <ul className={`md:hidden mt-4 space-y-2 ease-in duration-500 top-0 p-5 bg-white h-screen w-[50%] text-gray-700 absolute z-30 font-medium ${isOpen ? 'left-0' : ' left-[-100%]'}`}>
+            <ul className={`md:hidden mt-4 space-y-2 ease-in duration-500 top-0 p-5 bg-white h-screen w-[50%] text-gray-700 absolute z-50 font-medium ${isOpen ? 'left-0' : ' left-[-100%]'}`}>
                 <button onClick={toggleMenu} className='absolute right-3'>
                     {isOpen ? <X /> : " "}
                 </button>
