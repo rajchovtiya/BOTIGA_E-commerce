@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
     return (
-        <footer className='bg-[#f5f5f5] w-full  mt-20   px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-64 py-6'>
+        <footer className='bg-[#f5f5f5] w-full mt-20  px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-64 py-6'>
             <div className='flex items-center justify-center md:justify-between pt-14 flex-col-reverse  md:flex-row'>
                 <div>
                     <h1 className='font-normal text-2xl cursor-pointer tracking-[5px] text-center md:text-left mt-12'>BOTIGA</h1>

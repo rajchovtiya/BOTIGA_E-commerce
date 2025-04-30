@@ -43,7 +43,8 @@ export default function HomeCart() {
                     {
                         prodact.map((item) => {
                             return <div key={item.id} id="cart" className=' h-[460px] w-[345px] md:h-[450px] md:w-[300px] lg:h-[350px] lg:w-[220px] xl:w-[325px] xl:h-[500px] 2xl:w-[360px] 2xl:h-[540px] bg-white shadow-md rounded-md overflow-hidden'>
-                                <div className=' relative h-[72%] md:h-[70%] lg:h-[60%] xl:h-[75%]' onMouseMove={() => SetChak(item.id)} onMouseLeave={() => SetChak(null)}>
+                                <div className=' relative h-[72%] md:h-[70%] lg:h-[60%] xl:h-[75%]' 
+                                onMouseMove={() => SetChak(item.id)} onMouseLeave={() => SetChak(null)}>
                                     <img src={item.image} alt="" className={`h-full ease-in duration-500
                                       w-full object-cover cursor-pointer  ${Chak === item.id ? "opacity-70" : "opacity-100"}`} />
                                     {item.Sale === "true" ? <div className='absolute p-1 px-5 bg-black font-light text-white top-3 left-4'>SALE!</div> : " "}
@@ -58,7 +59,7 @@ export default function HomeCart() {
                                     <div className="flex mt-2 items-center justify-center gap-3">
                                         {item.Sale === "true" ? <del className="text-gray-400 text-[14px]"><span>$</span><span>{item.Sale_price}.00</span></del> : " "}
                                         <h2 className="font-semibold"><span className='font-semibold'>$</span><span className="font-semibold">{item.price}.00</span></h2>
-                                    </div>
+                                    </div>  
                                     <button className="text-white p-2 px-4 bg-black mt-2 text-[14px]">ADD TO CART</button>
                                 </div>
                             </div>
