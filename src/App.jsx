@@ -4,6 +4,7 @@ import Home from "./componete/Pages/Home";
 import Footer from "./componete/Footer";
 import { Route, Routes } from "react-router-dom";
 import Blog from "./componete/Pages/Blog";
+import BlogDetails from "./componete/Pages/BlogDetails";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/blog" element={<Blog />} />
+      <Route path="/blogdetails" element={<BlogDetails/>} />
 
     </Routes>
     <Footer />

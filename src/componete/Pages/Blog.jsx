@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Blog = () => {
     const [blogdeta, SetBlogdeta] = useState([])
@@ -25,12 +26,13 @@ const Blog = () => {
 
                 {blogdeta.map((deta) => {
                     return (
-                        <div key={deta.id} onClick={() => detastro(deta)}>
+                        <div key={deta.id} onClick={() => detastro(deta)} >
                             <div id="box" className='w-[320px]'
                                 onMouseMove={() => SetMove(deta.id)}
                                 onMouseLeave={() => SetMove(null)} >
-                                <img src={deta.img} alt=""
-                                    className={`w-full cursor-pointer ease-in duration-300 object-cover ${move == deta.id ? "opacity-70" : "opacity-100"}`} />
+                                <NavLink to={"/blogdetails"}>
+                                    <img src={deta.img} alt="" className={`w-full cursor-pointer ease-in duration-300 object-cover ${move == deta.id ? "opacity-70" : "opacity-100"}`} />
+                                </NavLink>
                                 <p className='text-center mt-2 opacity-80 text-[14px] cursor-pointer'>{deta.deta}</p>
                                 <p className='text-center mt-1 opacity-85 cursor-pointer'>{deta.title}</p>
                             </div>
