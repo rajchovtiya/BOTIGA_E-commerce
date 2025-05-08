@@ -19,8 +19,8 @@ const Navber = () => {
                 <ul className=' hidden md:flex space-x-6  font-medium '>
                     <NavLink to={""} className=' cursor-pointer font-light'>Home</NavLink>
                     <NavLink to={"/blog"} className=' cursor-pointer font-light'>Blog</NavLink>
-                    <li className='cursor-pointer font-light'>Shop</li>
-                    <li className='cursor-pointer font-light'>Contacy</li>
+                    <NavLink to={"/shop"} className='cursor-pointer font-light'>Shop</NavLink>
+                    <NavLink to={"/ContactUs"} className='cursor-pointer font-light'>Contacy</NavLink>
                 </ul>
                 <div className="md:hidden">
                     <button onClick={toggleMenu}>

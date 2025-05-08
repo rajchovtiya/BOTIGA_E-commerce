@@ -6,7 +6,8 @@
         "price": 21.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal1.webp"
+        "image": "./img/botal1.webp",
+        "botal": "true"
     },
     {
         "id": 2,
@@ -15,7 +16,8 @@
         "price": 12.00,
         "Sale": "true",
         "Sale_price": 16.00,
-        "image": "./img/botal2.webp"
+        "image": "./img/botal2.webp",
+        "botal": "true"
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "price": 18.00,
         "Sale": "true",
         "Sale_price": 21.00,
-        "image": "./img/botal3.webp"
+        "image": "./img/botal3.webp",
+        "botal": "false"
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "price": 21.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal4.webp"
+        "image": "./img/botal4.webp",
+        "botal": "false"
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "price": 14.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal5.webp"
+        "image": "./img/botal5.webp",
+        "botal": "false"
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "price": 14.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal6.webp"
+        "image": "./img/botal6.webp",
+        "botal": "false"
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "price": 14.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal7.webp"
+        "image": "./img/botal7.webp",
+        "botal": "false"
     },
     {
         "id": 8,
@@ -69,6 +76,7 @@
         "price": 14.00,
         "Sale": "false",
         "Sale_price": "",
-        "image": "./img/botal8.webp"
+        "image": "./img/botal8.webp",
+        "botal": "false"
     }
 ]

@@ -1,25 +1,25 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const BlogDetails = () => {
+    const [blogdeta, SetBlogdeta] = useState([])
+
     useEffect(() => {
-        const deta = async () => {
-            let detas = await fetch("./deta/Blog_DetailsDeta.json")
-            let bolgDetel = await detas.json()
-            console.log(bolgDetel)
+
+        const deta = () => {
+            let a = JSON.parse(localStorage.getItem("Blog_title"))
+            SetBlogdeta(a)
 
         }
         deta()
     }, [])
-
+console.log(blogdeta)
     return (
         <div className='mt-36'>
-
-
             <div className='flex items-center justify-center flex-col'>
-                <p className='text-gray-600'>July 18,2021 Vlad</p>
-                <h1 className='text-4xl font-normal mt-3'>Desirable outcome that your customers get from using your product</h1>
+                <p className='text-gray-600'>{blogdeta.deta}</p>
+                <h1 className='text-4xl font-normal mt-3'>{blogdeta.title}</h1>
                 <div className='flex items-center justify-center flex-col mt-14 max-w-[900px]' >
-                    <img src="/img/blogdetils1.webp" alt="" className='w-full' />
+                    <img src={blogdeta.img} alt="" className='w-full' />
                     <div className='flex items-center justify-center w-[80%]'>
                         <p className='flex items-center justify-center w-full mt-8 text-[16px] text-gray-700 font-normal'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porta elit a porttitor mattis. Pellentesque sit amet fringilla mauris. Cras eu faucibus lorem. Integer mattis dolor eu feugiat finibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus ut metus ac nunc tristique pellentesque vel auctor libero.</p>
                     </div>
@@ -64,15 +64,15 @@ const BlogDetails = () => {
                         </p>
                         <p className="text-[16px] opacity-80 flex flex-col mt-7">
                             <label for="comment">Name <span className='text-red-500'>*</span></label>
-                            <input id='comment' type="text" className='w-full h-[55px] bg-transparent border border-black'/>
+                            <input id='comment' type="text" className='w-full h-[55px] bg-transparent border border-black' />
                         </p>
                         <p className="text-[16px] opacity-80 flex flex-col mt-7">
                             <label for="comment">Email <span className='text-red-500'>*</span></label>
-                            <input id='comment' type="email" className='w-full h-[55px] bg-transparent border border-black'/>
+                            <input id='comment' type="email" className='w-full h-[55px] bg-transparent border border-black' />
                         </p>
                         <p className="text-[16px] opacity-80 flex flex-col mt-7">
                             <label for="comment">Website  <span className='text-red-500'>*</span></label>
-                            <input id='comment' type="text" className='w-full h-[55px] bg-transparent border border-black'/>
+                            <input id='comment' type="text" className='w-full h-[55px] bg-transparent border border-black' />
                         </p>
 
 
