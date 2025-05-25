@@ -17,7 +17,7 @@ const ContactUs = () => {
                         src="https://www.google.com/maps?q= New York, USA&output=embed"
                         className="w-full h-[450px] "
                         allowFullScreen=""
-                        loading="lazy"
+                       
                     ></iframe>
                 </div>
             </div>
